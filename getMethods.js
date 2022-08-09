@@ -212,9 +212,4 @@ router.delete('/favMentorDelete/:id',   async (req, res) => {
 })
 
   // end fav end fav end fav end fav end fav end fav end fav end fav end fav end fav end fav end fav end fav end fav end fav 
-
-
-
-
-
 module.exports = router;

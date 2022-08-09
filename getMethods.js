@@ -131,7 +131,6 @@ router.get('/getByRole/:roleName/:id', async (req, res) => {
      }
     res.status(200).json(user);
 })
-// gelince role get kullanarak router içinde router dene
 //favfavfavfavfavfavfavfavfavfavfavfavfavfavfavfavfavfavfavfavfavfavfavfavfavfavfavfavfavfavfavfavfavfavfavfavfavfav
 router.post('/favMentor/:mentorId', async (req, res) => {
     try {

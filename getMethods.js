@@ -132,7 +132,7 @@ router.get('/getByRole/:roleName/:id', async (req, res) => {
     res.status(200).json(user);
 })
 //favfavfavfavfavfavfavfavfavfavfavfavfavfavfavfavfavfavfavfavfavfavfavfavfavfavfavfavfavfavfavfavfavfavfavfavfavfav
-router.post('/favMentor/:mentorId', async (req, res) => {
+router.post('/favMentorAdd/:mentorId', async (req, res) => {
     try {
       const { mentorId } = req.params;
       const userId = req.body.userId;
